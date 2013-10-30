@@ -4,10 +4,10 @@ The **mpt3lowcom** package for [MPT3](http://control.ee.ethz.ch/~mpt/3/) contain
 
 Currently implemented methods:
 
-* Clipping-based complexity reduction ([paper](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6099563))
-* Optimal PWA fitting scheme
-* Separation-based complexity reduction ([paper](http://www.sciencedirect.com/science/article/pii/S0005109813001076))
-* Minimum-time control ([paper](http://www.sciencedirect.com/science/article/pii/S0005109805001482))
+* clipping-based complexity reduction ([paper](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6099563))
+* optimal PWA fitting scheme
+* separation-based complexity reduction ([paper](http://www.sciencedirect.com/science/article/pii/S0005109813001076))
+* minimum-time control ([paper](http://www.sciencedirect.com/science/article/pii/S0005109805001482))
 
 ## Installation
 
