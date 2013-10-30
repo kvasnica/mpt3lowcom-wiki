@@ -1,4 +1,4 @@
-# About
+## About
 
 The **mpt3lowcom** package extends [Multi-Parametric Toolbox 3](http://control.ee.ethz.ch/~mpt/3/) by adding methods for generating low-complexity explicit MPC controllers.
 
