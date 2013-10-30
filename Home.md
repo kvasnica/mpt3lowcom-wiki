@@ -13,7 +13,8 @@ Note that this package contains experimental code. Do expect some limitations. U
 
 ## Installation
 
-`tbxmanager install mpt3lowcom`
+1. Install MPT3 per [these instructions](http://control.ee.ethz.ch/~mpt/3/Main/Installation)
+2. Install the **mpt3lowcom** module by running `tbxmanager install mpt3lowcom` in Matlab
 
 ## Feedback
 
