@@ -6,7 +6,7 @@ Currently implemented methods:
 
 * [Clipping-based complexity reduction](Clipping).
 * [Optimal PWA fitting scheme](Fitting).
-* [Separation-based complexity reduction](Separation)
+* [Separation-based complexity reduction](Separation).
 * Minimum-time control ([paper](http://www.sciencedirect.com/science/article/pii/S0005109805001482))
 
 Note that this package contains experimental code. Do expect some limitations. Use generated controllers at your own risk.
