@@ -1,3 +1,5 @@
+# Clipping-based complexity reduction
+
 ## Literature
 
 Kvasnica, M. and Fikar, M.: [Clipping-Based Complexity Reduction in Explicit MPC](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6099563). IEEE Transactions on Automatic Control, no. 7, vol. 57, pp. 1878-1883, 2012.
