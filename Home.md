@@ -9,6 +9,8 @@ Currently implemented methods:
 * separation-based complexity reduction ([paper](http://www.sciencedirect.com/science/article/pii/S0005109813001076))
 * minimum-time control ([paper](http://www.sciencedirect.com/science/article/pii/S0005109805001482))
 
+Note that this package contains experimental code. Do expect some limitations. Use generated controllers at your own risk.
+
 ## Installation
 
 `tbxmanager install mpt3lowcom`
