@@ -12,6 +12,10 @@ Given PWA feedback law is approximated by a different PWA function of lower comp
 
 Continuous or discontinuous PWA feedback law.
 
+## Implementation
+
+See `help FittingController`
+
 ## Example
 
     % double integrator dynamics
