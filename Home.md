@@ -4,7 +4,7 @@ The **mpt3lowcom** package extends [Multi-Parametric Toolbox 3](http://control.e
 
 Currently implemented methods:
 
-* clipping-based complexity reduction ([paper](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6099563))
+* [clipping-based complexity reduction](Clipping-based%20complexity%20reduction)
 * optimal PWA fitting scheme
 * separation-based complexity reduction ([paper](http://www.sciencedirect.com/science/article/pii/S0005109813001076))
 * minimum-time control ([paper](http://www.sciencedirect.com/science/article/pii/S0005109805001482))
