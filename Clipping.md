@@ -12,6 +12,10 @@ Regions of a PWA feedback where the control action is saturated are completely e
 
 Continuous PWA feedback law.
 
+## Implementation
+
+See `help ClippingController`
+
 ## Example
 
     % double integrator dynamics
