@@ -76,12 +76,13 @@ Sometimes you would like to optimally approximate a generic PWA function over a 
     %        -1 <= u <= 1
     %        -1 <= x <= 1
     %
-    % H = 1; % penalty in u'*H*u
-    % F = 1; % penalty in x'*F*u
+    H = 1; % penalty in u'*H*u
+    F = 1; % penalty in x'*F*u
     % constraints in the form A*u <= b + E*x
-    % A = [1; -1; 1; -1; 0; 0];
-    % b = [1; 1; 1; 1; 1; 1];
-    % E = [-1; 1; 0; 0; -1; 1];
+    A = [1; -1; 1; -1; 0; 0];
+    b = [1; 1; 1; 1; 1; 1];
+    E = [-1; 1; 0; 0; -1; 1];
+    % formulate the parametric optimization problem
     problem = Opt('H', 1, 'F', 1, 'A', A, 'b', b, 'Bth', E);
     % generate the PWA solution
     solution = problem.solve(); 
