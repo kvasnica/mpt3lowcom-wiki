@@ -72,18 +72,18 @@ Sometimes you would like to optimally approximate a generic PWA function over a 
 
     % formulate an optimization problem (see "help Opt")
     %    min u'*u + x'*u
-    %   s.t. -1 <= u + x <= 1
+    %   s.t. -10 <= u + x <= 10
     %        -1 <= u <= 1
-    %        -1 <= x <= 1
+    %        -10 <= x <= 10
     %
     H = 1; % penalty in u'*H*u
     F = 1; % penalty in x'*F*u
     % constraints in the form A*u <= b + E*x
     A = [1; -1; 1; -1; 0; 0];
-    b = [1; 1; 1; 1; 1; 1];
+    b = [10; 10; 1; 1; 10; 10];
     E = [-1; 1; 0; 0; -1; 1];
     % formulate the parametric optimization problem
-    problem = Opt('H', 1, 'F', 1, 'A', A, 'b', b, 'pB', E);
+    problem = Opt('H', 1, 'pF', 1, 'A', A, 'b', b, 'pB', E);
     % generate the PWA solution
     solution = problem.solve(); 
     
@@ -110,8 +110,9 @@ Sometimes you would like to optimally approximate a generic PWA function over a 
         {}, ...
         struct('invariance', false))
 
-    % plot the simple optimizer
-    fitted.fplot('primal');
+    % plot the original and the simple optimizer
+    solution.xopt.fplot('primal');
+    figure; fitted.fplot('primal');
 
 ## Optimal fitting of PWA functions obtained by YALMIP's `solvemp`
 
