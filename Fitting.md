@@ -83,7 +83,7 @@ Sometimes you would like to optimally approximate a generic PWA function over a 
     b = [1; 1; 1; 1; 1; 1];
     E = [-1; 1; 0; 0; -1; 1];
     % formulate the parametric optimization problem
-    problem = Opt('H', 1, 'F', 1, 'A', A, 'b', b, 'Bth', E);
+    problem = Opt('H', 1, 'F', 1, 'A', A, 'b', b, 'pB', E);
     % generate the PWA solution
     solution = problem.solve(); 
     
