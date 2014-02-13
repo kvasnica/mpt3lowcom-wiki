@@ -73,7 +73,7 @@ Sometimes you would like to optimally approximate a generic PWA function over a 
     problem = Opt(…);
     solution = problem.solve();
     T = solution.xopt.Domain.triangulate();
-    new_partition = PolyUnion(T);
+    new_partition = PolyUnion(T); % partition of the simpler optimizer
     nx = solution.xopt.Dim; % number of parameters
     nz = solution.xopt.Set(1).Functions('primal').R; % number of optimization variables
     zmin = -Inf(nz, 1); % lower limit on the approximate value
