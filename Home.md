@@ -13,7 +13,7 @@ Note that this package contains experimental code. Do expect some limitations. U
 
 ## Further reading
 
-More information about low-complexity explicit MPC synthesis in MPT3 can be found in our [technical report](http://www.kirp.chtf.stuba.sk/publication_info.php?id_pub=1581)
+More information about low-complexity explicit MPC synthesis in MPT3 can be found in our [technical report](http://www.kirp.chtf.stuba.sk/publication_info.php?id_pub=1581).
 
 ## Installation
 
