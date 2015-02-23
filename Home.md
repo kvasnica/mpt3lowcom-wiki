@@ -22,4 +22,4 @@ More information about low-complexity explicit MPC synthesis in MPT3 can be foun
 
 ## Feedback
 
-Send questions/comments to `mpt@control.ee.ethz.ch`
+Send questions/comments/bug reports to `mpt@control.ee.ethz.ch`
