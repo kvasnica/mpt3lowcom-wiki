@@ -2,7 +2,7 @@
 
 ## Literature
 
-Takacs, B., Holaza, J., Kvasnica, M., Di Cairano, S.: Nearly-Optimal Simple Explicit MPC Regulators with Recursive Feasibility Guarantees. To appear at CDC'13.
+Takacs, B., Holaza, J., Kvasnica, M., Di Cairano, S.: [Nearly-Optimal Simple Explicit MPC Regulators with Recursive Feasibility Guarantees](http://www.kirp.chtf.stuba.sk/assets/publication_info.php?id_pub=1469). In IEEE Conference on Decision and Control, Florence, Italy, pp. 7089–7094, 2013.
 
 ## Principle
 
