@@ -6,7 +6,7 @@ Grieder, P., Kvasnica, M., Baotic, M., Morari, M.: [Stabilizing low complexity f
 
 ## Principle
 
-Complexity is reduced by solving a time-optimal control problem where the objective is to reach a given terminal set in minimal number of discrete time steps.
+Complexity is reduced by solving a time-optimal control problem where the objective is to reach a given terminal set in a minimal number of time steps.
 
 ## Prerequisites
 
